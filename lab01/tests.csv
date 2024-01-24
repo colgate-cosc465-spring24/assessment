@@ -5,8 +5,8 @@ Term keywords method,01b
 Term __str__ method,01c
 Glossary,C
 Glossary constructor,02a
-Glossary terms property,02b
-Glossary add method,02c
+Glossary add method,02b
+Glossary terms property,02c
 Glossary lookup_by_acronym method,02d
 Glossary lookup_by_keyword method,02e
 Glossary load method,02f

@@ -10,6 +10,7 @@ echo $REPODIR
 echo Initializing...
 ln -s $REPODIR/reference.py $ASSESSDIR/tests/reference.py
 ln -s $REPODIR/terminology.py $ASSESSDIR/tests/terminology.py
+ln -s $REPODIR/networking.json $ASSESSDIR/tests/networking.json
 rm -f $ASSESSDIR/report.txt
 
 # Run tests
@@ -23,6 +24,7 @@ fi
 # Clean-up
 echo Cleaning...
 cd $ASSESSDIR
-rm $ASSESSDIR/tests/reference.py $ASSESSDIR/tests/terminology.py
+rm $ASSESSDIR/tests/reference.py $ASSESSDIR/tests/terminology.py $ASSESSDIR/tests/networking.json
+
 
 exit $RETVAL
