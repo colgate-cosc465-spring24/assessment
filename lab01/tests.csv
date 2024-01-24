@@ -1,9 +1,9 @@
 Description,Testcase
-Term,C
+Term class,C
 Term constructor,01a
 Term keywords method,01b
 Term __str__ method,01c
-Glossary,C
+Glossary class,C
 Glossary constructor,02a
 Glossary add method,02b
 Glossary terms property,02c
