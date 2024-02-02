@@ -1,0 +1,16 @@
+Description,Testcase
+Functionality,C
+Listens on specified port,01a
+Accepts client,01b
+Receives first line,01c
+Receives specified maximum,01d
+Sends second line,01e
+Sends error response,01f
+Receives third line,01g
+Sends fourth line,01h
+Receives fifth line,01i
+Sends sixth line,01j
+Handles multiple clients,01k
+Design,C
+Closes client socket,02a
+Closes server socket,02b
