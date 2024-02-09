@@ -1,0 +1,6 @@
+Description,Testcase
+connect should use hostname,01a
+first line should include HTTP version,01b
+User-Agent should include hyphen and colon,01c
+lines should be separated by \r\n,01d
+request should include blank line,01e
