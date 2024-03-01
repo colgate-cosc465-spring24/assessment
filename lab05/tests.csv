@@ -1,0 +1,29 @@
+Description,Testcase
+is_subnet,C
+Yes same prefix,01a
+Yes different prefix,01b
+Yes prefixlen plus one,01c
+Yes address,01d
+Yes all addresses,01e
+Yes large prefixlen,01f
+No same prefix and prefixlen,01g
+No same prefixlen,01h
+No different prefixlen,01i
+No address,01j
+No inverted,01k
+Yes IPv6,01l
+No IPv6,01m
+is_adjacent,C
+Yes same prefixlen,02a
+Yes larger prefixlen,02b
+Yes smaller prefixlen,02c
+Yes address,02d
+Yes inverted,02e
+No same prefixlen,02f
+No different prefixlen,02g
+No address,02h
+No inverted,02i
+No same prefix,02j
+No subnet,02k
+Yes IPv6,02l
+No IPv6,02m
