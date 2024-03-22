@@ -1,0 +1,10 @@
+Description,Testcase
+cust -> prov,01a
+cust -> prov-cust -> prov,01i
+peer <-> peer,01b
+cust -> prov <- cust,01c
+prov -> cust <- prov,01h
+peer <-> peer <-> peer,01d
+cust -> prov-cust -> prov <- cust-prov <- cust,01e
+cust -> prov-peer <-> peer-prov <- cust,01f
+prov -> (cust-prov; cust-prov -> cust-prov) -> cust,01g
