@@ -8,10 +8,13 @@ source $BASEDIR/common.sh
 SIMULATOR=$BASEDIR/simulator.py
 TOPO=`echo $0 | sed 's/sh$/json/'`
 EXPECTOUT=`echo $0 | sed 's/sh$/out/'`
-ACTUALOUT=/tmp/simulator.out
+ACTUALOUT=`mktemp`
 
 echo "Your simulator's output:"
 $SIMULATOR $TOPO | tee $ACTUALOUT
 echo ""
 echo "Difference between expected output and your simulator's output:"
 diff -U 1000 $EXPECTOUT $ACTUALOUT
+RESULT=$?
+rm $ACTUALOUT
+exit $RESULT
